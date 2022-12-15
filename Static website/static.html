@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static.css">
+    </head>
+        
+<body>
+    <div class="home-background-image ">
+        <div id="section-homepage">
+            <div class=" d-flex justify-content-center">
+                <img src="https://ik.imagekit.io/ebpv1kde9/homepage_image.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669303276948" class="homepage-image" />
+            </div>
+            <h1 class="homepage-main-heading">My Projects</h1>
+            <p class="homepage-paragraph">These are a few of my static websites that i have developed using HTML,CSS and bootstrap</p>
+            <div class="container">
+            <div class="d-flex flex-row ">
+               
+                <div class="homepage-cards">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/techinfo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669305928693" class="homepage-card-img" />
+                    <h2 class="homepage-card-heading">TECH INFO</h2>
+                    <p class="homepage-card-paragraph">The use of technology is widely prevalent in medicine, science, industry, communication, transportation, and daily life. Technologies include physical objects like utensils or machines and intangible tools such as software.<br />
+                        <span class="card_highlighted_line"> Want to know more click here</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#DB7093" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                        </svg>
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="homepage-card-button" onclick="display('section-tech-basic-info')">Know more</button>
+                    </div>
+                </div>
+                <div class="homepage-cards">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/resume.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669306874610" class="homepage-card-img" />
+                    <h2 class="homepage-card-heading">RESUME</h2>
+                    <p class="homepage-card-paragraph"> Purpose of a resume is to introduce your qualifications and skills to employers.It's an informational document that tells your career story,outlining all details in an easily read format.Resumes also hold meaning within themselves.<br />
+                        <span class="card_highlighted_line"> Here is my Resume</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#DB7093" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                        </svg>
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="homepage-card-button" onclick="display('section-detailed-resume')">Click me</button>
+                    </div>
+                </div>
+                <div class="homepage-cards">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/homepage_yoga.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669460474054" class="homepage-card-img" />
+                    <h2 class="homepage-card-heading">YOGA</h2>
+                    <p class="homepage-card-paragraph"> Yoga posses strengthen and open tight areas of the body.
+                        According to the National Institutes of Health, scientific evidence shows that yoga supports stress management, mental health, mindfulness, healthy eating, weight loss and quality sleep.<br />
+                        <span class="card_highlighted_line">click to know more</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#DB7093" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                        </svg>
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="homepage-card-button" onclick="display('section-yoga-details')">Click me</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tech-basic-info-background">
+        <div id="section-tech-basic-info">
+            <h1 class="tech-basic-info-heading">TECH INFO</h1>
+            <div class="d-flex flex-row">
+                <div class="tech-basic-info-cards d-flex flex-row" onclick="display('section-tech-detailed-info-AI')">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/AI.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356232061" class="tech-basic-info-image" />
+                    <div>
+                        <h2 class="tech-basic-info-card-heading ">AI</h2>
+                        <p class="tech-basic-info-card-para">These machines speed up your tasks and processes with guaranteed accuracy and precision, making them a useful and valuable tool.<br />Tap me to know about me. </p>
+                    </div>
+                </div>
+                <div class="tech-basic-info-cards d-flex flex-row" onclick="display('section-tech-detailed-info-CC')">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/CC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356236694" class="tech-basic-info-image" />
+                    <div>
+                        <h2 class="tech-basic-info-card-heading ">CLOUD COMPUTING</h2>
+                        <p class="tech-basic-info-card-para">With cloud computing, resources are available in minutes, which means companies can respond to new market developments much more rapidly.<br />Tap me to know about me. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="tech-basic-info-cards d-flex flex-row" onclick="display('section-tech-detailed-info-ML')">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/ML.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356243247" class="tech-basic-info-image" />
+                    <div>
+                        <h2 class="tech-basic-info-card-heading ">ML</h2>
+                        <p class="tech-basic-info-card-para">Machine learning allows the user to feed a computer algorithm an immense amount of data and have the computer analyze and make data-driven recommendations and decisions based on only the input data.<br />Tap me to know about me. </p>
+                    </div>
+                </div>
+                <div class="tech-basic-info-cards d-flex flex-row" onclick="display('section-tech-detailed-info-BC')">
+                    <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/BC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356232639" class="tech-basic-info-image" />
+                    <div>
+                        <h2 class="tech-basic-info-card-heading ">BLOCK CHAIN</h2>
+                        <p class="tech-basic-info-card-para">Blockchain helps in the verification and traceability of multistep transactions needing verification and traceability.<br />Tap me to know about me. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-basic-info-cards d-flex flex-row" onclick="display('section-tech-detailed-info-FS')">
+                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/FS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356239574" class="tech-basic-info-image" />
+                <div>
+                    <h2 class="tech-basic-info-card-heading ">FULL STACK </h2>
+                    <p class="tech-basic-info-card-para">Full-stack developer has a better understanding of how the business should be created. It also facilitates transitioning between frontend and backend as they have the potential to handle both.<br />Tap me to know about me. </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button class="tech-basic-info-card-button" onclick="display('section-homepage')">Go Back</button>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="section-tech-detailed-info-AI">
+        <div class="tech-detailed-info-background">
+
+            <div class="d-flex justify-content-center">
+                <div class="tech-detailed-info-card">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/AI.1.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356232425" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/AI.2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356249133" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/AI.3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356232370" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+                    <h1 class="tech-detailed-info-card-heading">ARTIFICIAL INTELLIGENCE </h1>
+                    <p class="tech-detailed-info-card-para"> There is much that needs to be demystified when it comes to artificial intelligence.
+                        Many of us still think robots take over when the truth of the matter is much more simple.
+                        Artificial intelligence has become a major part of product development and has revolutionized the user experience.
+                        Product managers need to know exactly what artificial intelligence is in order to utilize it correctly</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="tech-detailed-info-card-button" onclick="display('section-tech-basic-info')">Go Back</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-tech-detailed-info-CC">
+        <div class="tech-detailed-info-background">
+
+            <div class="d-flex justify-content-center">
+                <div class="tech-detailed-info-card">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/CC.1.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356233512" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/CC.2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356233175" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/CC.3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356236753" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+                    <h1 class="tech-detailed-info-card-heading">CLOUD COMPUTING</h1>
+                    <p class="tech-detailed-info-card-para"> Number of small scale and large scale business
+                        sectors from all over the world are using cloud today,
+                        is because of tremendous effect on cost saving. Yes,
+                        Cloud computing has made drastic change in the reduction of hardware and software cost and other server resources as well</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="tech-detailed-info-card-button" onclick="display('section-tech-basic-info')">Go Back</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-tech-detailed-info-ML">
+        <div class="tech-detailed-info-background">
+
+            <div class="d-flex justify-content-center">
+                <div class="tech-detailed-info-card">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/ML.1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356246897" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/ML.2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356242198" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/ML.3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356243296" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+                    <h1 class="tech-detailed-info-card-heading">MACHINE LEARNING </h1>
+                    <p class="tech-detailed-info-card-para">Machine learning is a subset of artificial intelligence focused on building systems that can learn from historical data, identify patterns, and make logical decisions with little to no human intervention.It allows the user to feed a computer algorithm an immense amount of data and have the computer analyze and make data-driven recommendations and decisions based on only the input data.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="tech-detailed-info-card-button" onclick="display('section-tech-basic-info')">Go Back</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-tech-detailed-info-BC">
+        <div class="tech-detailed-info-background">
+
+            <div class="d-flex justify-content-center">
+                <div class="tech-detailed-info-card">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/BC.1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356234531" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/BC.2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356237269" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/BC.3.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356230880" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+                    <h1 class="tech-detailed-info-card-heading">BLOCK CHAIN </h1>
+                    <p class="tech-detailed-info-card-para">Blockchain helps in the verification and traceability of multistep transactions needing verification and traceability. It can provide secure transactions, reduce compliance costs, and speed up data transfer processing. Blockchain technology can help contract management and audit the origin of a product. It also can be used in voting platforms and managing titles and deeds.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="tech-detailed-info-card-button" onclick="display('section-tech-basic-info')">Go Back</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-tech-detailed-info-FS">
+        <div class="tech-detailed-info-background">
+
+            <div class="d-flex justify-content-center">
+                <div class="tech-detailed-info-card">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/FS.1.avif?ik-sdk-version=javascript-1.4.3&updatedAt=1669356238853" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/FS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669356239574" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/FS.3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669356239068" class="d-block w-100 tech-detailed-info-carousel-img" alt="..." />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+                    <h1 class="tech-detailed-info-card-heading">FULL STACK</h1>
+                    <p class="tech-detailed-info-card-para">Full-stack technology refers to the entire depth of a computer system application, and full stack web developers are those who are capable of developing both the front end and the back end of web development. All of the features that are visible to the client, or the viewer of the site, are included in the front end.
+                        A Full Stack Developer is associated with the creation of an application from its start to finish.
+
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <button class="tech-detailed-info-card-button" onclick="display('section-tech-basic-info')">Go Back</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="section-detailed-resume">
+        <div class="d-flex flex-row">
+            <div>
+                <img src="https://ik.imagekit.io/ebpv1kde9/projectimages/detailed-resume-image.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669445832611" class="detailed-resume-image" />
+                <h1 class="detailed-resume-name">GUJJU BHAVANI</h1>
+                <h1 class="detailed-resume-passion">FRONTEND DEVELOPER</h1>
+
+            </div>
+            <div>
+                <h1 class="detailed-resume-contact-info-heading">CONTACT INFORMATION</h1>
+                <div class="d-flex flex-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone icons" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                    <p class="detailed-resume-contact">6********2</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope  icons" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    <a href="mailto:bhavanigujju7@gmail.com">
+                        <p class="detailed-resume-contact-email">bhavanigujju7@gmail.com</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <h1 class="detailed-resume-info-education-heading">EDUCATION DETAILS :</h1>
+        <div class="d-flex flex-row">
+            <div>
+                <h6 class="detailed-resume-info-education-sub-heading">Ragiv Gandhi University Of Knowledge And Technologies</h6>
+                <p class="detailed-resume-info-education-year">2020-2024</p>
+            </div>
+            <div>
+                <p class="detailed-resume-info-education-description detailed-resume-info-space-between-skills">Currently pursuing Batchelor of technology 3rd year in the stream of computer science and engineering.</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row">
+            <div>
+                <h6 class="detailed-resume-info-education-sub-heading">Ragiv Gandhi University Of Knowledge And Technologies</h6>
+                <p class="detailed-resume-info-education-year">2018-2020</p>
+            </div>
+            <div>
+                <p class="detailed-resume-info-education-description detailed-resume-info-space-between-skills">Completed pre university course(intemediate) in the stream of Maths,Pyhsics,Chemistry with GPA:8.5/10.0</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row">
+            <div>
+                <h6 class="detailed-resume-info-education-sub-heading">Muncipal Girls High School </h6>
+                <p class="detailed-resume-info-education-year">2017-2018</p>
+            </div>
+            <div>
+                <p class="detailed-resume-info-education-description detailed-resume-info-school-education-space">Completed Secondary School Leaving Certificate (SSLC) at amadalavalasa in srikakulam with GPA:10.0/10.0</p>
+            </div>
+        </div>
+        <h1 class="detailed-resume-info-skills-heading">SKILLS :</h1>
+        <div class="d-flex flex-row">
+            <div>
+                <h2 class="detailed-resume-info-skills-sub-heading">TECHNICAL SKILLS</h2>
+                <ul>
+                    <li>Static web designer</li>
+                    <li>Responsive web designer</li>
+                    <li>Python</li>
+                    <li>Dbms</li>
+                </ul>
+            </div>
+            <div class="detailed-resume-info-space-between-skills">
+                <h2 class="detailed-resume-info-skills-sub-heading  ">SOFT SKILLS</h2>
+                <ul>
+                    <li>Communication Skils</li>
+                    <li>Presentation Skills</li>
+                    <li>Team Work </li>
+                    <li>Adaptability</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="detailed-resume-button" onclick="display('section-homepage')">Go Back</button>
+        </div>
+    </div>
+    <div id="section-yoga-details">
+        <div class="yoga-background">
+            <div class="d-flex justify-content-center">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png" class="yoga-main-image" />
+            </div>
+            <p class="yoga-main-para">Types of Yoga</p>
+            <div class="yoga-card">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="yoga-card-image" />
+                    <div class="d-flex flex-column">
+                        <h1 class="yoga-card-heading">Acro Yoga</h1>
+                        <p class="yoga-card-para">It streches and relax your body improves stamina and memory</p>
+                    </div>
+                </div>
+            </div>
+            <div class="yoga-card">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="yoga-card-image" />
+                    <div class="d-flex flex-column">
+                        <h1 class="yoga-card-heading">Vinyasa Yoga</h1>
+                        <p class="yoga-card-para">It serves a training to increase strength and help build learn muscles mass through the body</p>
+                    </div>
+                </div>
+            </div>
+            <div class="yoga-card">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="yoga-card-image" />
+                    <div class="d-flex flex-column">
+                        <h1 class="yoga-card-heading">Hatha Yoga</h1>
+                        <p class="yoga-card-para">It intodues beginners to the main relaxation techniques and assana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="yoga-card">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="yoga-card-image" />
+                    <div class="d-flex flex-column">
+                        <h1 class="yoga-card-heading">Kundalini Yoga</h1>
+                        <p class="yoga-card-para">It helps to relax your mind and body,omproves strength flexibility and endurance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="yoga-page-button" onclick="display('section-homepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

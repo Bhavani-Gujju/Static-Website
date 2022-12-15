@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-background-image {
+    background-image: url("https://ik.imagekit.io/ebpv1kde9/projectimages/homepage_background_image.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669391606559");
+    background-size: cover;
+}
+
+.homepage-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    margin-top: 30px;
+
+}
+
+.homepage-main-heading {
+    color: #019faf;
+    font-size: 18px;
+    font-family: "roboto";
+
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+.homepage-paragraph {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "roboto";
+
+    text-align: center;
+    margin: 15px;
+
+}
+.home-page-space{
+    margin-left:150px;
+}
+
+.homepage-cards {
+    height: 400px;
+    width: 280px;
+    background-color: #f8e5ff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.homepage-card-img {
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.homepage-card-heading {
+    color: #183b56;
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.homepage-card-paragraph {
+    color: #616e7c;
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+
+.homepage-card-highlighted-line {
+    color: #DB7093;
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.homepage-card-button {
+    color: #171f46;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: "roboto";
+    height: 35px;
+    width: 120px;
+}
+
+.tech-basic-info-background {
+    background-color: pink;
+    background-size: cover;
+    margin: 0px;
+
+}
+
+.tech-basic-info-heading {
+    color: #183b56;
+    font-size: 18px;
+    font-family: "roboto";
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.tech-basic-info-cards {
+
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.tech-basic-info-image {
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.tech-basic-info-card-heading {
+    color: #183b56;
+    font-size: 18px;
+    font-family: "roboto";
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.tech-basic-info-card-para {
+    color: #616e7c;
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.tech-basic-info-card-button {
+    color: #171f46;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "roboto";
+    height: 35px;
+    width: 120px;
+    margin: 20px;
+}
+
+.tech-detailed-info-background {
+    background-color: pink;
+    background-size: cover;
+
+    margin: 0px;
+}
+
+.tech-detailed-info-card {
+    height: 750px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.tech-detailed-info-carousel-img {
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.tech-detailed-info-card-heading {
+    color: #183b56;
+    font-size: 30px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.tech-detailed-info-card-para {
+    color: #616e7c;
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.tech-detailed-info-card-button {
+    color: #ffffff;
+    background-color: #a25670;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "roboto";
+    height: 45px;
+    width: 120px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.detailed-resume-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+.detailed-resume-name {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.detailed-resume-passion {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.detailed-resume-contact-info-heading {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.detailed-resume-contact {
+    color: #616e7c;
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+.detailed-resume-contact-email{
+    color: #616e7c;
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    text-decoration:underline; 
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+
+.detailed-resume-info-education-heading {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.detailed-resume-info-education-sub-heading {
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin: 15px;
+}
+
+.detailed-resume-info-education-description {
+    font-size: 14px;
+    font-family: "roboto";
+    margin: 15px;
+
+}
+
+.detailed-resume-info-education-year {
+    font-size: 14px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.detailed-resume-info-skills-heading {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.detailed-resume-info-skills-sub-heading {
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: bold;
+    margin: 15px;
+}
+
+.detailed-resume-info-space-between-skills {
+    margin-left: 130px;
+}
+
+.detailed-resume-info-school-education-space {
+    margin-left: 330px;
+}
+
+.detailed-resume-button {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 20px;
+
+    border-width: 0px;
+}
+
+.yoga-background {
+
+    background-color: #ffedcb;
+    background-size: cover;
+
+
+
+}
+
+.yoga-main-image {
+    height: 40vh;
+    width: 40vw;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.yoga-main-para {
+    color: #132d84;
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.yoga-card {
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fad693;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.yoga-card-image {
+    height: 130px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+.yoga-card-heading {
+    color: #8a2be2;
+    font-size: 25px;
+    font-family: "roboto";
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.yoga-card-para {
+    color: #132d84;
+    font-size: 15px;
+    font-family: "roboto";
+
+}
+
+.yoga-page-button {
+    height: 40px;
+    width: 100px;
+    background-color: #132d84;
+    color: #fad693;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    border-width: 0px;
+}
